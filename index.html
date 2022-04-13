@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Practicing with SSB-433 Batch about html and css layouts">
+    <meta name="keywords" content="SSB-433,W3schools tag with ssb, HTML,Layout,HTML5">
+    <meta name="author" name="aklima akther ruhina">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 11April</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header id="header_layout1">
+        <div class="logo-container">   
+            <a class="logo" href="#"><img src="img/logo.png"></a>
+            <div class="social_btn">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+              
+            </div>
+        </div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Page</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+
+        </nav>
+    </header>
+    <section id="banner" class="banner">
+        <div class="box-container">
+            <div class="box">
+            <h1>Introduction Title</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque rem maxime harum fugit excepturi! Ad, expedita sint asperiores exercitationem, autem pariatur a, saepe vel nesciunt deleniti quae amet corporis beatae!</p>
+        </div>
+        </div>
+    </section>
+    <style type="text/css">
+    .box ul#disc li{
+        list-style-type: disc;
+    }
+    .box ul#circle li{list-style-type: circle;}
+    .box ul#border {
+      border-left: 5px solid red;
+      background-color: #f1f1f1;
+      list-style-type: none;
+      padding: 10px 20px;
+
+    }
+    .text p#t1{
+        text-indent: 50;
+    }
+    .lsp{letter-spacing: 5px;}
+    p.small{line-height: 0.8}
+    p.big{line-height: 1.8}
+    p.one{word-spacing: 10px;}
+    p.two{word-spacing: -2px;}
+    .tshw{color: lightcoral;
+  text-shadow: 2px 2px 4px #000000;}
+    </style>
+    <section class="main-container" id="layout1">
+        <div class="box-container">
+            <div class="box text">
+                <h1>Using text-indent</h1>
+                <p id="t1">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+                <h1>Using letter-spacing</h1>
+                <h2 class="lsp">This is heading 1</h2>
+                <h1>Using line-height</h1>
+                <p>
+                This is a paragraph with a standard line-height.<br>
+                The default line height in most browsers is about 110% to 120%.<br>
+                </p>
+
+                <p class="small">
+                This is a paragraph with a smaller line-height.<br>
+                This is a paragraph with a smaller line-height.<br>
+                </p>
+
+                <p class="big">
+                This is a paragraph with a bigger line-height.<br>
+                This is a paragraph with a bigger line-height.<br>
+                </p>
+                <h1>Using word-spacing</h1>
+
+                <p>This is a paragraph with normal word spacing.</p>
+
+                <p class="one">This is a paragraph with larger word spacing.</p>
+                <p class="two">This is a paragraph with smaller word spacing.</p>
+                <h1>Using white-space</h1>
+
+                <p style="white-space:nowrap">
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                This is some text that will not wrap.
+                </p>
+                <h1 class="tshw">Text-shadow effect!</h1>
+
+
+
+            </div>
+            <div class="box">
+                <H2>HTML Lists and CSS List Properties</H2>
+                <p>In HTML, there are two main types of lists:</p>
+                <ul id="disc">
+                    <li>
+                        unordered lists (ul) - the list items are marked with bullets
+                    </li>
+                    <li>ordered lists (ol) - the list items are marked with numbers or letters</li>
+                </ul>
+                <p>The CSS list properties allow you to:</p>
+                <ul id="circle">
+                    <li>
+                        Set different list item markers for ordered lists
+                    </li>
+                    <li>Set different list item markers for unordered lists</li>
+                    <li>Set an image as the list item marker</li>
+                    <li>Add background colors to lists and list items</li>
+                </ul>
+                <h2>List with a red left border</h2>
+
+                <ul id="border">
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Coca Cola</li>
+                </ul>
+            </div>
+            <div class="box content">
+                <p>Fancy table</p>
+                <div style="overflow-x:auto;">
+                    <table id="customers">
+                      <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                      </tr>
+                      <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                      </tr>
+                      <tr>
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                      </tr>
+                      <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                      </tr>
+                      <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                      </tr>
+                      <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                      </tr>
+                      <tr>
+                        <td>Königlich Essen</td>
+                        <td>Philip Cramer</td>
+                        <td>Germany</td>
+                      </tr>
+                      <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                      </tr>
+                      <tr>
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                      </tr>
+                      <tr>
+                        <td>North/South</td>
+                        <td>Simon Crowther</td>
+                        <td>UK</td>
+                      </tr>
+                      <tr>
+                        <td>Paris spécialités</td>
+                        <td>Marie Bertrand</td>
+                        <td>France</td>
+                      </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Copyright By <strong>Aklima akther</strong><span>Ruhina</span></p>
+    </footer>
+    
+</body>
+</html>
+
