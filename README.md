@@ -1,2 +1,2 @@
 # css_test
-This repository is for learning purpose of css.We beautify our website with css. So this include CSS file with fresh learn. 
+This is test repository of css. Here i will imply following these information to beautify my Website.They are include css selectors, comments, colors, backgrounds,borders, margins, paddings height/width, box model, outline, text, fonts, icons, links,lists, tables, display,max-width. Hope i will Learn more about this css.    
